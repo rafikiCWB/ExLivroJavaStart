@@ -20,12 +20,10 @@ public class Jogo {
 
     public void mostraResultado() {
         System.out.println("Sua aposta FOI!:= ---" + aposta + " Resultado do GAME:= " + resultado);
-    if(this.resultado ==this.aposta){
-        System.out.println("-----Parabéns você acertou!----");
-    }else {
-        System.out.println("--Errou.--");
+        if (this.resultado == this.aposta) {
+            System.out.println("-----Parabéns você acertou!----");
+        } else {
+            System.out.println("--Errou.--");
+        }
     }
-    }
-
-
 }
